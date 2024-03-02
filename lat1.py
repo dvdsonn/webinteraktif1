@@ -21,6 +21,6 @@ PAGES = {
      "Pages 2" : page_2,
      "Pages 3" : page_3
  }   
-st.sidebar.image("hulk2.jpg", width = 200)
+st.sidebar.image("pubg.webp", width = 200)
 page = st.sidebar.radio("Halaman", list(PAGES.keys()))
 PAGES[page]()
