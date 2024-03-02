@@ -1,5 +1,6 @@
 import streamlit as st
 def page_2():
-    st.title("Halaman 2")
-    st.write('Halaman ini digunakan untuk Menampilkan youtube')
+    st.title("TUTORIAL MENJADI PRO PLAYER")
+    st.write('NONTON TU MICROBOY')
     st.video('https://www.youtube.com/watch?v=_JSKsEqWQTM&pp=ygUVcHViZyBtb2JpbGUgaW5kb25lc2lh')
+    st.title('JANGAN LUPA SUBSCRIBE AGAR ANDA MENJADI PRO PLAYER')
