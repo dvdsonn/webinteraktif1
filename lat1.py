@@ -23,6 +23,6 @@ PAGES = {
      "Page 3" : page_3,
      "Page 4" : kalkulatorsegitiga
     }   
-st.sidebar.image("pubg.webp", width = 200)
+st.sidebar.image("divino.eldadson.jpeg", width = 300)
 page = st.sidebar.radio("Halaman", list(PAGES.keys()))
 PAGES[page]()

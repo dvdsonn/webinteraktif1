@@ -1,7 +1,7 @@
 import streamlit as st
 def page_1():
     st.title("BELAJAR MENJADI PRO PLAYER")
-    st.write('7 Tips Jadi Pro Player Esports Tips menjadi pro player')
+    st.write('7 Tips Jadi Pro Player Esports')
    
     st.write('1.fokus pada satu game,Dalam menjadi seorang pro player, fokus pada satu game adalah kunci sukses untuk mengasah kemampuan dan meningkatkan performa. Menghabiskan waktu untuk memahami setiap mekanisme dan nuansa dari satu game dapat membantu para pemain mengembangkan strategi yang matang dan meningkatkan gameplay mereka.')
    
@@ -18,4 +18,5 @@ def page_1():
     st.write('7. Bersaing di Turnamen,Ikuti turnamen dan bersainglah di dalamnya. Ini akan membantu Anda meningkatkan keterampilan Anda dan memberikan pengalaman bermain di level yang lebih tinggi.')
    
     st.write('Jadi, jangan lupa untuk berlatih secara teratur dan mempelajari mekanika permainan dengan baik jika kamu ingin menjadi seorang pro player. Tapi ingat, jangan terlalu serius dalam prosesnya, tetaplah bersenang-senang dan nikmati permainanmu. Siapa tahu, kamu bisa menjadi pro player berikutnya yang sukses di industri e-sports. Keep practicing and have fun!')
-    
+    with st.container():
+        st.image("pubg.webp")
