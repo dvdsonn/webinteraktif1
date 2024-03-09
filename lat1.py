@@ -31,18 +31,20 @@ PAGES[page]()
 
 st.markdown(
     """
+
         <style>
-        [data-testid="stActionButtonIcon"]{
-            dislay: none;
+        [data-testid ="stAction ButtonIcon"]{
+            display: none;
         }
-        [data-testid="baseButton-header"]{
-            dislay: none;
+        [data-testid ="baseButton-header"]{
+            display: none;
+        
         }
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-
+        
+        #MainMenu {visibility:hidden;}
+        footer {visibillity:hidden:}
+        
         </style>
-    """,
-    unsafe_allow_html=True,
+        """, 
+        unsafe_allow_html=True,
 )
-
