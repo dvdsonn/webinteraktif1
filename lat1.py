@@ -30,8 +30,6 @@ page = st.sidebar.radio("Halaman", list(PAGES.keys()))
 PAGES[page]()
 
 
-
-
 st.markdown(
     """ 
          <style>
@@ -46,7 +44,7 @@ st.markdown(
          footer {visibility: hidden;}
          
          </style>
-         """,
-    unsafe_allow_html=True,     
+         """, 
+         unsafe_allow_html=True,     
 )
 
