@@ -28,3 +28,25 @@ PAGES = {
 st.sidebar.image("divino.eldadson.jpeg", width = 300)
 page = st.sidebar.radio("Halaman", list(PAGES.keys()))
 PAGES[page]()
+
+
+
+
+st.markdown(
+    """ 
+         <style>
+         [data-testid="stActionButtonIcon"] {
+             display: none;
+         }
+         [data_testid="baseButton-header"] {
+             display: none;
+         }
+         
+         #MainMenu {visibility: hidden;}
+         footer {visibility: hidden}
+         
+         </style>
+         """,
+    unsafe_allow_html=True,     
+    )
+
