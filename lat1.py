@@ -32,19 +32,20 @@ PAGES[page]()
 
 st.markdown(
     """ 
-         <style>
-         [data-testid="stActionButtonIcon"] {
-             display: none;
-         }
-         [data_testid="baseButton-header"] {
-             display: none;
-         }
-         
-         #MainMenu {visibility: hidden;}
-         footer {visibility: hidden;}
-         
-         </style>
-         """, 
-         unsafe_allow_html=True,     
+        <style>
+        [data-testid="stActionButtonIcon"] {
+            display: none;
+        }
+        [data_testid="baseButton-header"] {
+            display: none;
+        }
+
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+
+        </style>
+        
+        """, 
+unsafe_allow_html=True,     
 )
 
